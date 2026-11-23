@@ -1,0 +1,4 @@
+interface:
+  display_name: "MiniMax H3 影视短剧与分镜提示词 (h3-drama-storyboard)"
+  short_description: "台词转海螺3全流程提示词：智能跳步、3-5个精炼剧本、前置模式选择、16:9纯中文资产与官方五模块视频Prompt"
+  default_prompt: "请使用 $h3-drama-storyboard 将我提供的台词做成 MiniMax H3 视频的完整提示词方案。"
