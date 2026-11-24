@@ -35,7 +35,7 @@ How the reference pictures align with the target video — Picture 1 (from Shot 
 
 | 标签 | 对应素材 | 必写正负职责与避坑铁律 |
 |---|---|---|
-| `<Subject N>` | 人物设定图 / 道具图 / 场景空镜图 | 每个独立文件独占一个编号，**严禁合并声明**。人物必须排除三栏排版、中栏无头样式、灰底与站立姿态；场景必须排除空置构图，并在正文动作句中显式引用实现互锁。 |
+| `<Subject N>` | 人物设定图 / 道具图 / 场景空镜图 | 每个独立文件独占一个编号，**严禁合并声明**。人物必须排除四栏排版、左三栏无头样式、灰底与标准立正姿态；场景必须排除空置构图，并在正文动作句中显式引用实现互锁。 |
 | `<Picture N>` | 独立合成的首帧 / 尾帧 | 仅模式 A / C 使用；模式 B-1 / B-2 全篇严禁出现。锁定起始/终止构图、站位与静态光影，正文不再重复描述已固定的静态外观。 |
 | `<Audio N>` | 独立音色参考音频 | 必须绑定说话人 ID：`<Audio 1> 是 <Subject 1> (S1) 的音色参考`，并声明**绝不复用参考音频中的旧台词词句与环境噪音**。 |
 | `<Video N>` | 视频续写或运镜参考 | 按需使用，常规口播与短剧暂不涉及。 |
@@ -83,7 +83,7 @@ How the reference pictures align with the target video — Picture 1 (from Shot 
 ### 范例 1：模式 B-1（纯人物参考 + 场景纯文本直驱）
 ```text
 参考分工：
-<Subject 1> 是主角，取自素材1人物设定图：锁定其面部五官轮廓、发型发色、体态与服装材质；完全忽略原图的三栏分屏排版、中栏无头样式、纯灰棚拍背景、站立姿态与镜头角度。
+<Subject 1> 是主角，取自素材1人物设定图：锁定其面部五官轮廓、发型发色、体态与服装材质；完全忽略原图的四栏分屏排版、左三栏无头样式、纯灰棚拍背景、标准立正姿态与镜头角度。
 
 综合画面描述：
 CLEAN CINEMA FRAME AT ALL TIMES — absolutely no subtitles, captions, translation, lettering, title, logo, watermark or any other visible text; keep the entire lower third empty.
@@ -106,8 +106,8 @@ CLEAN CINEMA FRAME AT ALL TIMES — absolutely no subtitles, captions, translati
 ### 范例 2：模式 B-2（多素材全参考直驱 · 人物图 + 场景图 1:1 对齐）
 ```text
 参考分工：
-<Subject 1> 是员工，取自素材1人物设定图：锁定其面部五官轮廓、发型发色、体态与服装材质；完全忽略原图的三栏分屏排版、中栏无头样式、纯灰棚拍背景、站立姿态与镜头角度。
-<Subject 2> 是主管，取自素材2人物设定图：锁定其面部五官轮廓、发型发色、体态与服装材质；完全忽略原图的三栏分屏排版、中栏无头样式、纯灰棚拍背景、站立姿态与镜头角度。
+<Subject 1> 是员工，取自素材1人物设定图：锁定其面部五官轮廓、发型发色、体态与服装材质；完全忽略原图的四栏分屏排版、左三栏无头样式、纯灰棚拍背景、标准立正姿态与镜头角度。
+<Subject 2> 是主管，取自素材2人物设定图：锁定其面部五官轮廓、发型发色、体态与服装材质；完全忽略原图的四栏分屏排版、左三栏无头样式、纯灰棚拍背景、标准立正姿态与镜头角度。
 <Subject 3> 是办公走廊场景，取自素材3场景空镜图：锁定其建筑空间结构、金属门牌位置、门窗构件与主环境光线；完全忽略原图的空置构图，允许人物在空间中自然站位交互。
 
 综合画面描述：
@@ -131,7 +131,7 @@ CLEAN CINEMA FRAME AT ALL TIMES — absolutely no subtitles, captions, translati
 For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
 
 参考分工：
-<Subject 1> 是主角，取自素材1人物设定图：锁定其面部五官轮廓、发型发色与服装材质；完全忽略原图的三栏分屏排版、中栏无头样式、纯灰棚拍背景、站立姿态与镜头角度。
+<Subject 1> 是主角，取自素材1人物设定图：锁定其面部五官轮廓、发型发色与服装材质；完全忽略原图的四栏分屏排版、左三栏无头样式、纯灰棚拍背景、标准立正姿态与镜头角度。
 <Subject 2> 是会议室场景，取自素材2场景空镜图：锁定其建筑空间结构、家具材质与主环境光线；完全忽略原图的空置构图，允许人物在空间中自然交互。
 <Picture 1> 是 [Shot 1] 在 0.00 秒完全参考的首帧画面，负责锁定起始画幅构图、人物初始站位与首帧静态光影。
 <Audio 1> 是 <Subject 1> (S1) 的音色参考，仅提取并参考其低沉浑厚的声线与音色厚度，绝不复用参考音频中的台词词句与环境底噪。
@@ -157,7 +157,7 @@ CLEAN CINEMA FRAME AT ALL TIMES — absolutely no subtitles, captions, translati
 How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 6.00-second mark of the target video.
 
 参考分工：
-<Subject 1> 是主角，取自素材1人物设定图：锁定其面部五官轮廓、发型发色与服装材质；完全忽略原图的三栏分屏排版、中栏无头样式、纯灰棚拍背景、站立姿态与镜头角度。
+<Subject 1> 是主角，取自素材1人物设定图：锁定其面部五官轮廓、发型发色与服装材质；完全忽略原图的四栏分屏排版、左三栏无头样式、纯灰棚拍背景、标准立正姿态与镜头角度。
 <Picture 1> 是 [Shot 1] 在 0.00 秒完全参考的首帧画面，锁定起始构图、站位与光影。
 <Picture 2> 是 [Shot 1] 在 6.00 秒完全参考的尾帧画面，锁定终点构图、落地姿态与光影。
 
@@ -205,5 +205,6 @@ CLEAN CINEMA FRAME AT ALL TIMES — absolutely no subtitles, captions, translati
   - **恒距倒退跟拍公式**：运镜明确写死 `摄影机与 <Subject 1> 保持恒定间距匀速平稳倒退跟拍（或侧前30度恒距斜跟拍），<Subject 2> 背景空间沿纵深平稳向后流动`，严禁叠加大角度环绕或剧烈摇移。
   - **从容慢步 + 轻手势**：步速写死“从容缓步前行”，严禁“大步流星/快速疾走”；每段仅配 1~2 个克制胸前手势，结尾金句前可自然放慢停步定格收口。
 - **严禁时间畸变与复杂变形动作**：禁用 `slow motion / freeze frame / accelerated`、多轴剧烈晃动、掏手机解锁、快速脱外套扔地等高崩坏动作。
-- **Motion Slider（运动幅度）建议**：口播/室内对峙 `3 ~ 4` 档；带走位调度 `5 ~ 6` 档；严禁拉满 `8 ~ 10` 档。
+- **过肩反打（OTS）段防前景背影“猛回头抢戏/串嘴”铁律**：在双人过肩反打镜头中，若前景某角色仅露出虚化的后脑与背肩轮廓（全程背对镜头不露正脸、不开口说话），在 H3 生成该段视频时**严禁上传该背影角色的正脸人物设定图**（其虚化背肩外观已由 `<Picture 1>` 首帧 100% 锁死）——仅上传主画面面对镜头说话角色的设定图，可 100% 杜绝模型看到正脸参考图后强行让背影角色扭头露脸或跟嘴穿帮。
+- **Motion Slider（运动幅度）建议**：口播/室内对峙/过肩中近景 `3 ~ 4` 档；带走位平移跟拍调度 `5` 档；严禁拉满 `8 ~ 10` 档。
 - **低成本单变量验证法**：先用低清晰度/快速模式测站位与运镜轨迹；每次只改一个物理变量（如将大幅转身改为微侧头 15 度），调通后再切高画质出片。
